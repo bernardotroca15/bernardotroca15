@@ -11,7 +11,7 @@
 ---
 ## 👨‍💻Sobre mim
 <p align = "justify">
-   &nbsp;Eu sempre gostei de tecnologia e criação, principalmente em relação as áreas do entretenimento e do uso diário, como jogos, redes sociais, sites e outros.
+  Eu sempre gostei de tecnologia e criação, principalmente em relação as áreas do entretenimento e do uso diário, como jogos, redes sociais, sites e outros.
   Pretendo me desenvolver cada vez mais na área e adquirir cada vez mais conhecimento por meio do estudo e do trabalho!
 </p>
 
@@ -32,7 +32,7 @@
 ## 💡 Linguagens
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=c,postgresql,html,css" />
+  <img src="https://skillicons.dev/icons?i=c,postgresql,html,css,bash" />
 </div>
 
 ---
@@ -40,5 +40,14 @@
 ## 🐱 GitHub
 
 <div align = "center">
-  ![Jogo da Cobrinha](https://raw.githubusercontent.com/bernardotroca15/bernardotroca15/output/github-contribution-grid-snake.svg)
+  <img src = "https://raw.githubusercontent.com/bernardotroca15/bernardotroca15/refs/heads/output/github-contribution-grid-snake-dark.svg">
+</div>
+
+---
+<div align = "center">
+  
+### ⭐ Comece fazendo o que é necessário, depois o que é possível, e de repente você estará fazendo o impossível!
+
+<i> -São Francisco de Assis</i>
+
 </div>
