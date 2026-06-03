@@ -10,7 +10,7 @@
 
 ---
 ## 👨‍🎓Sobre mim
-<p align = "center">
+<p align = "justify">
   Eu sempre gostei de tecnologia e criação, principalmente em relação as áreas do entretenimento e do uso diário, como jogos, redes sociais, sites e outros.
   Pretendo me desenvolver cada vez mais na área e adquirir cada vez mais conhecimento por meio do estudo e do trabalho!
 </p>
