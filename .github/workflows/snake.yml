@@ -1,0 +1,31 @@
+name: Generate Datas
+
+on:
+  schedule: # Roda automaticamente a cada 24 horas
+    - cron: "0 */24 * * *"
+  workflow_dispatch: # Permite que você rode manualmente quando quiser
+
+jobs:
+  build:
+    name: Jobs to update datas
+    runs-on: ubuntu-latest
+    steps:
+      # Gera o jogo da cobrinha a partir das contribuições do usuário
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Envia os arquivos gerados para a branch 'output'
+      - name: Push Snake to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
